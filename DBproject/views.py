@@ -1,5 +1,6 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
 
-def hello(request):
-    return HttpResponse("Hello zzz zty cyj !")
+def test(request):
+    context = {'hello': 'Hello World!'}
+    return render(request, 'test_template.html', context)
