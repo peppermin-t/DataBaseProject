@@ -1,15 +1,24 @@
-# 数据库大作业
-组员：zty zzz cyj
-主题（暂定）：音乐/电影信息条目检索
-## 任务一（第六周截至）
-- 内容
-- 分工：
-  > cyj：
-  > zty：
-  > zzz：
-## 任务二（期末截至）
-- 内容：
-- 分工：
-  > cyj：
-  > zty：
-  > zzz：
+# frontends
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
